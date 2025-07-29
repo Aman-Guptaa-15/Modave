@@ -1,0 +1,428 @@
+:root, [data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-primary-text-emphasis: #052c65;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: #055160;
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd;
+}
+
+body{
+background-color: #141410;
+color: rgb(0, 0, 0);
+margin: 0px;
+padding: 0px;
+font-size: 20px;
+height: 1000px;
+}
+a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.Categories{
+    display: flex;
+    justify-content: space-between;
+}
+.Categories > div{
+    text-align: center;
+}
+.Best{
+    display: flex;
+    justify-content: space-between;
+}
+.Best > div{
+    text-align: center;
+    width: 40%;
+    height: 40%; 
+}
+.Best > div > img{
+    height: 100%;
+}
+.lists{
+    list-style: none;
+    display: flex;
+    gap: 88px;
+    margin: 0;
+    padding: 0;
+}
+.input{
+    background-color: transparent;
+    border: 2px;
+    border-radius: 5px;
+    outline: 0 none;
+    padding: 5px 10px;
+    height: 40px;
+    width: 350px;
+    font-size: 14px;
+    background-color: rgb(213 236 255);
+        display: flex;
+    align-items: center;
+    
+}
+
+.input > input{
+    border: none;
+    background-color: transparent;
+}
+.header{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 5px;
+    padding: 10px;
+}
+.section{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    margin-block: 20px;
+}
+.diivision1{
+    border-radius: 5px;
+display: flex;
+justify-content: space-between;
+margin: 10px;
+}
+.division2{
+    border-radius: 5px;
+display: flex;
+justify-content: space-between;
+margin: 10px;
+}
+.Only{
+    display: flex;
+    justify-content: space-between;
+}
+.Only > div{
+    text-align: center;
+    width: 40%;
+    height: 40%;
+}
+.Only > div > img{
+    height: 100%;
+}
+.li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.font-25{
+    font-size: 70px;
+    color: wheat;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    gap: 10px;
+}
+.font-26{
+    font-size: 30px;
+    color: wheat;
+}
+.button{
+    font-size: 20px;
+}
+.font-27{
+    font-size: 30px;
+}
+footer{
+    background-color: #212121;
+    color: white;
+}
+
+footer > div > ul > li > a{
+    color: white;
+}
+footer > div{
+    display: flex;
+    justify-content: space-between;
+}
+.searchy{
+    color: wheat;
+}
+.Deals{
+    display: flex;
+    justify-content: space-between;
+}
+.Deals > div{
+    text-align: center;
+    width: 40%;
+    height: 40%;
+}
+.Deals > div > img{
+    height: 100%;
+}
+.head{
+    border-radius: 0px;
+    /* background-color: #000000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 5px;
+    padding: 10px;
+}
+.buttton{
+    background-color: rgb(149, 238, 60);
+    width: 100px; height: 60px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.head > nav{
+    display: flex;
+}
+.head > nav > div{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 38px;
+}
+.listss{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    transform: translateX(-59px);
+}
+.butttonn{
+     background-color: white;
+    width: 64px; height: 60px;
+    border: none;
+    border-radius: 7px;
+}
+.anker{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sec{
+    background-image: url("../images/bgimage.jpg");
+    height: 631px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+.divw{
+    color: white;
+    transform: translateX(-87px);
+}
+.divw > h1{
+    font-size: 83px;
+}
+.divw > div{
+    display: flex;
+    justify-content: space-around;
+}
+.marqee{
+    background-color: rgb(149, 238, 60);
+}
+.right{
+    color: white;
+    display: flex;
+    gap: 4rem;
+    transform: rotate(90deg);
+    position: absolute;
+    right: -12rem;
+    top: 20rem;
+    align-items: center;
+}
+
+.right > img{
+    filter: contrast(1);
+    filter: brightness(1);
+}
+
+.right > div{
+    display: flex;
+    gap: 24px;
+}
+.anchor{
+    color: white;
+}
+.aboutsec{
+    padding-bottom: 120px;
+    padding-top: 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttony{
+    background-color: #c9f31d;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 2rem;
+}
+.dibi{
+    display: flex;
+    gap: 40px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container > img{
+    animation: rotate360 5s linear infinite;
+}
+
+
+@keyframes rotate360 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.award{
+    background: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 120px 0;
+    overflow: hidden;
+}
+
+.set{
+    background: url("../images/bg2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 23px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.set > div{
+    display: flex;
+    gap: 74px;
+}
+.footing > div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.duuu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.duuu > div{
+    color: white;
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+}
+.duuu > div > h2{
+    margin: 0;
+}
+.dihii{
+    gap: 20px;
+    color: white;
+    background-color: #1d1d1d;
+    border-radius: 23px;
+}
+
+.duuu > div > h2 > img{
+    gap: 20px;
+}
+
+
+.buttonye{
+    background-color: #c9f31d;
+    height: 48px;
+    width: 48px;
+    border: none;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 1rem;
+}
+.bg{
+    background-image: linear-gradient(to , pink, red);
+}
