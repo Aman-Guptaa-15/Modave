@@ -1113,21 +1113,44 @@
     margin: 10px;
     transform: translateY(25px);
   }
-  .main{
+  .main {
     display: none;
   }
 }
 
 @media only screen and (max-width: 325px) {
   .butodiv {
-        gap: 10px !important;
-}
+    gap: 10px !important;
+  }
 }
 
 @media only screen and (max-width: 283px) {
-  .butodiv > button{
+  /* .butodiv {
        font-size: 10px;
-       transform: translateX(18px);
+       transform: translateX(18px) !important;
+       flex-direction: column;
+} */
+
+  .butodiv {
+    transform: translateY(-45px) !important;
+    gap: 17px;
+    flex-direction: column;
+    width: 145px;
+  }
+  .butodiv > button {
+    width: 100%;
+    border-radius: 13px;
+    font-size: 15px;
+  }
+  .content {
+    transform: translate(0px, 0px) !important;
+  }
+  .content > p {
+    font-size: 25px;
+  }
+  .content > p:nth-child(2) {
+    font-size: 25px !important;
+    transform: translateX(30px);
+  }
 }
-}
-       /* Thank you */
+/* Thank you */
