@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* Basic Colors */
 :root,
 [data-bs-theme="light"] {
@@ -54,6 +57,11 @@
 }
 
 /* Anchor Classes */
+.special > a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
 .anchor {
   color: white;
   font-size: 16px;
@@ -85,6 +93,22 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
+}
+.special {
+  position: fixed;
+  z-index: 10;
+  bottom: 10px;
+  right: 10px;
+  background-image: linear-gradient(rgba(231, 79, 79, 0.527),rgb(180, 103, 180));
+  height: 48px;
+  width: 48px;
+  border: none;
+  border-radius: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 1rem;
 }
 
 .btn {
