@@ -1117,4 +1117,17 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 325px) {
+  .butodiv {
+        gap: 10px !important;
+}
+}
+
+@media only screen and (max-width: 283px) {
+  .butodiv > button{
+       font-size: 10px;
+       transform: translateX(18px);
+}
+}
        /* Thank you */
