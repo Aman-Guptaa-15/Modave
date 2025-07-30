@@ -1184,4 +1184,16 @@ html {
         transform: translate(85px, 6px) !important;
 }
 }
+@media only screen and (max-width: 474px) {
+  .imgg {
+        width: 215px;
+        transform: translate(85px, 6px) !important;
+}
+}
+@media only screen and (max-width: 440px) {
+  .imgg {
+        width: 215px;
+        transform: translate(6px, 6px) !important;
+}
+}
 /* Thank you */
