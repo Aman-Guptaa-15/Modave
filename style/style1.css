@@ -57,7 +57,7 @@ html {
 }
 
 /* Anchor Classes */
-.special > a{
+.special > a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -99,7 +99,10 @@ html {
   z-index: 10;
   bottom: 10px;
   right: 10px;
-  background-image: linear-gradient(rgba(231, 79, 79, 0.527),rgb(180, 103, 180));
+  background-image: linear-gradient(
+    rgba(231, 79, 79, 0.527),
+    rgb(180, 103, 180)
+  );
   height: 48px;
   width: 48px;
   border: none;
@@ -528,6 +531,7 @@ html {
 
 /* Media Queries For  Responsive Website */
 
+/* Media Query for Width : 1194px */
 @media only screen and (max-width: 1194px) {
   .imginar {
     transform: translate(-8px, 47px) !important;
@@ -537,12 +541,14 @@ html {
   }
 }
 
+/* Media Query for Width : 1163px */
 @media only screen and (max-width: 1163px) {
   .imginar {
     transform: translate(-12px, 47px) !important;
   }
 }
 
+/* Media Query for Width : 1159px */
 @media only screen and (max-width: 1159px) {
   .lists4 {
     position: relative;
@@ -550,6 +556,7 @@ html {
   }
 }
 
+/* Media Query for Width : 1157px */
 @media only screen and (max-width: 1157px) {
   .lists4 {
     display: none !important;
@@ -562,6 +569,7 @@ html {
   }
 }
 
+/* Media Query for Width : 1119px */
 @media only screen and (max-width: 1119px) {
   .imginar {
     transform: translate(-18px, 47px) !important;
@@ -571,6 +579,7 @@ html {
   }
 }
 
+/* Media Query for Width : 1115px */
 @media only screen and (max-width: 1115px) {
   .imginar {
     width: 230px;
@@ -578,6 +587,7 @@ html {
   }
 }
 
+/* Media Query for Width : 1091px */
 @media only screen and (max-width: 1091px) {
   .imginar {
     transform: translate(-1px, 47px) !important;
@@ -595,6 +605,7 @@ html {
   }
 }
 
+/* Media Query for Width : 1088px */
 @media only screen and (max-width: 1088px) {
   .imginar {
     width: 230px;
@@ -605,6 +616,7 @@ html {
   }
 }
 
+/* Media Query for Width : 1059px */
 @media only screen and (max-width: 1059px) {
   .imginar {
     width: 214px;
@@ -622,6 +634,7 @@ html {
   }
 }
 
+/* Media Query for Width : 889px */
 @media only screen and (max-width: 889px) {
   .heading > h1 {
     font-size: 60px !important;
@@ -710,6 +723,7 @@ html {
   }
 }
 
+/* Media Query for Width : 741px */
 @media only screen and (max-width: 741px) {
   .d {
     display: none;
@@ -803,6 +817,7 @@ html {
   }
 }
 
+/* Media Query for Width : 625px */
 @media only screen and (max-width: 625px) {
   .grid1,
   .grid2 {
@@ -821,9 +836,6 @@ html {
     flex: 1;
     width: 80vw;
   }
-  /* .theme{
-    font-size: 60px !important;
-  } */
 
   .d {
     display: none;
@@ -929,6 +941,7 @@ html {
   }
 }
 
+/* Media Query for Width : 571px */
 @media only screen and (max-width: 571px) {
   .grid1 {
     grid-template-columns: 1fr !important;
@@ -1051,6 +1064,23 @@ html {
   }
 }
 
+/* Media Query for Width : 474px */
+@media only screen and (max-width: 474px) {
+  .imgg {
+    width: 215px;
+    transform: translate(85px, 6px) !important;
+  }
+}
+
+/* Media Query for Width : 460px */
+@media only screen and (max-width: 460px) {
+  .imgg {
+    width: 215px;
+    transform: translate(85px, 6px) !important;
+  }
+}
+
+/* Media Query for Width : 453px */
 @media only screen and (max-width: 453px) {
   .imgg {
     width: 215px;
@@ -1095,6 +1125,15 @@ html {
   }
 }
 
+/* Media Query for Width : 440px */
+@media only screen and (max-width: 440px) {
+  .imgg {
+    width: 215px;
+    transform: translate(6px, 6px) !important;
+  }
+}
+
+/* Media Query for Width : 363px */
 @media only screen and (max-width: 363px) {
   .box > img {
     padding: 10px;
@@ -1142,19 +1181,15 @@ html {
   }
 }
 
+/* Media Query for Width : 325px */
 @media only screen and (max-width: 325px) {
   .butodiv {
     gap: 10px !important;
   }
 }
 
+/* Media Query for Width : 283px */
 @media only screen and (max-width: 283px) {
-  /* .butodiv {
-       font-size: 10px;
-       transform: translateX(18px) !important;
-       flex-direction: column;
-} */
-
   .butodiv {
     transform: translateY(-45px) !important;
     gap: 17px;
@@ -1178,22 +1213,4 @@ html {
   }
 }
 
-@media only screen and (max-width: 460px) {
-  .imgg {
-        width: 215px;
-        transform: translate(85px, 6px) !important;
-}
-}
-@media only screen and (max-width: 474px) {
-  .imgg {
-        width: 215px;
-        transform: translate(85px, 6px) !important;
-}
-}
-@media only screen and (max-width: 440px) {
-  .imgg {
-        width: 215px;
-        transform: translate(6px, 6px) !important;
-}
-}
 /* Thank you */
