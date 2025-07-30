@@ -1177,4 +1177,11 @@ html {
     transform: translateX(30px);
   }
 }
+
+@media only screen and (max-width: 460px) {
+  .imgg {
+        width: 215px;
+        transform: translate(85px, 6px) !important;
+}
+}
 /* Thank you */
